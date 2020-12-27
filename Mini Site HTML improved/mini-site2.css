@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: wheat;
+font-family: sans-serif;
+margin: 0 auto;
+}
+header{
+    position: fixed;
+    background-color: rgb(196, 182, 186);
+    color: wheat;
+    font-family: sans-serif;
+    font-size: x-small;
+    padding-right: 85%;
+    padding-left: 2em;
+}
+.small-header {
+    padding-right: 90%;
+}
+#early-life {
+    overflow: scroll;
+}
+#background{
+    background-image: url(../pictures/university.jpg);size: 2em;
+    background-repeat: repeat;
+    background-size: 6em;
+    
+}
+#aside-background {
+    background-color: wheat;
+}
+
+a {
+    text-decoration: none;
+}
+ul{
+list-style-type: none;
+line-height: 3em;
+margin-right: 5em;
+margin-top: 5em;
+font-weight: 700;
+}
+section{
+    display: inline-block;
+    width: 70%;
+    height: 100vh;
+    border-left: inset;
+    border-color: rgb(136, 165, 82);
+    padding: 0 4em;
+    margin-top: 5em;
+    color:  wheat;
+    background-color: rgb(196, 182, 186);
+
+}
+aside{
+display: inline-block;
+width: 25%;
+margin: 5 0em;
+vertical-align: top;
+}
+img {
+
+    margin-left: 8em;
+    float: right;
+    vertical-align: top;
+}
+li{
+    border-style: groove;
+    border-left: hidden;
+    border-top: hidden;
+    border-right: hidden;
+    border-bottom-color: rgb(136, 165, 82);
+}
+
+tr:nth-of-type(odd)
+{
+    background: rgb(136, 165, 82);color:wheat;
+}
+tr:nth-of-type(even)
+{
+    background:wheat;color:rgb(136, 165, 82);
+}
+
+table {
+    text-align: center;
+    font-size: 14px;
+  
+}
+th{
+    padding: 1em;
+    font-size: medium;
+}
+td{
+    padding: 0.5em;
+}
