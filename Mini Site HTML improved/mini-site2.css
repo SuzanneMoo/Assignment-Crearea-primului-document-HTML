@@ -22,7 +22,7 @@ header{
     overflow: scroll;
 }
 #background{
-    background-image: url(../pictures/university.jpg);size: 2em;
+    background-image: url(pictures/university.jpg);size: 2em;
     background-repeat: repeat;
     background-size: 6em;
     
@@ -90,6 +90,7 @@ table {
 th{
     padding: 1em;
     font-size: medium;
+    background-color: rgb(189, 150, 161);
 }
 td{
     padding: 0.5em;
